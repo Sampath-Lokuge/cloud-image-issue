@@ -1,20 +1,22 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title> Blank </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <!-- cloud image is not working -->
+    <ci-img
+      src="https://shopthiscity.app/mobsupport/images/homepage/3.png?44382"
+      class="height-210"
+      [ratio]="1"
+    ></ci-img>
+
+    <!-- simple image is working fine -->
+    <!--  <img
+      class="height-210"
+      src="https://shopthiscity.app/mobsupport/images/homepage/3.png?44382"
+    /> -->
   </div>
 </ion-content>
