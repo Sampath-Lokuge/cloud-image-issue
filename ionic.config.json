@@ -1,0 +1,7 @@
+{
+  "name": "cloud-image-issue",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

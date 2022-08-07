@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "cloud-image-issue",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
